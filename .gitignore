@@ -26,7 +26,3 @@ deploy/helm-chart/Chart.yaml
 Thumbs.db
 UserInterfaceState.xcuserstate
 .env
-
-
-# Config
-src/config.js
