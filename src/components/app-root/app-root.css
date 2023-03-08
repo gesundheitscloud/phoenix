@@ -1,0 +1,21 @@
+.content {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 56px 1fr;
+}
+
+header {
+  background: #e1440a;
+  color: white;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  padding: 0 15px;
+}
+
+main {
+  padding: 15px;
+  height: 100%;
+  overflow-y: auto;
+}
