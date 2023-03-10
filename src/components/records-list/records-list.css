@@ -1,0 +1,65 @@
+.records {
+  max-width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+ul {
+  padding: 0;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+li {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 5px;
+  background-color: #e1e1e1;
+}
+
+li:first-of-type {
+  border-bottom: 2px solid black;
+  background-color: #fff;
+}
+
+li:nth-of-type(even) {
+  background-color: #f9f7f7;
+}
+
+li span {
+  padding: 5px 10px;
+  flex: 1 1 auto;
+}
+
+li span:first-of-type {
+  flex: 0 0 20px;
+  border: none;
+}
+
+li span {
+  border-left: 2px solid black;
+}
+
+li span:last-of-type {
+  flex: 0 0 42px;
+}
+
+li span button {
+  margin: 0;
+}
